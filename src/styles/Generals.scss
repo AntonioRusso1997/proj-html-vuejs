@@ -1,0 +1,18 @@
+//Importo Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Importo variabili
+@import './vars';
+
+//Importo palette colori
+@import './Colors';
+
+//Importo font
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500;600;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
