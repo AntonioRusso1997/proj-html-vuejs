@@ -7,14 +7,7 @@
     <!-- Navbar che compilerò tramite js -->
     <nav>
       <ul class="d-flex list-unstyled align-items-center mt-4">
-        <li><a class="text-decoration-none py-2 px-1 mx-3 active" href="#">HOME</a></li>
-        <li><a class="text-decoration-none py-2 px-1 mx-3" href="#">PAGES</a></li>
-        <li><a class="text-decoration-none py-2 px-1 mx-3" href="#">PROGRAM</a></li>
-        <li><a class="text-decoration-none py-2 px-1 mx-3" href="#">TICKETS</a></li>
-        <li><a class="text-decoration-none py-2 px-1 mx-3" href="#">SPEAKERS</a></li>
-        <li><a class="text-decoration-none py-2 px-1 mx-3" href="#">PAPERS</a></li>
-        <li><a class="text-decoration-none py-2 px-1 mx-3" href="#">BLOG</a></li>
-        <li><a class="text-decoration-none py-2 px-1 mx-3" href="#">SHORTCODES</a></li>
+        <li v-for="(item, index) in items" :key="index"><a :class="(item.current) ? 'active' : null" class="text-decoration-none py-2 px-1 mx-3" :href="item.url">{{ item.text.toUpperCase() }}</a></li>
         <span class="mx-3">|</span>
         <a class="text-decoration-none" href="#"><i class="fas fa-search mx-3"></i></a>
       </ul>
@@ -23,8 +16,16 @@
 </template>
 
 <script>
+//Importo file js per la navbar
+import navItems from "../data/navItems.js"
+
 export default {
   name: 'Header',
+  data () {
+    return {
+      items: navItems
+    }
+  }
 }
 </script>
 
