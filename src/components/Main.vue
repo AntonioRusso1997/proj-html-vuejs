@@ -1,9 +1,9 @@
 <template>
   <main>
     <!-- Sezione Jumbotron -->
-    <div class="jumbotron w-100">
-      <div class="">CONFERENCE ON</div>
-      <div class="">SOCIAL NETWORKS</div>
+    <div class="jumbotron w-100 d-flex flex-column justify-content-center align-items-center">
+      <div class="jumbo-text">CONFERENCE ON</div>
+      <div class="jumbo-text">SOCIAL NETWORKS</div>
       <div class="info-bar">
         <div class="bar"></div>
         <p>23-26 MAY 2019</p>
@@ -36,6 +36,11 @@ export default {
   background-image: url("../assets/images/slider-1-bg.jpg");
   background-size: cover;
   background-position-y: center;
+
+  .jumbo-text {
+    color: $white;
+    font-size: 50px;
+  }
 }
 
 </style>

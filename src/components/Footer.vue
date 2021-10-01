@@ -34,7 +34,7 @@
         <h4 class="mb-4">GALLERY FROM LAST YEAR</h4>
         <div class="container p-0">
           <div class="row w-100 p-0">
-            <img v-for="(image, index) in images" :key="index" class="" :src="require('../assets/' + image.path)" alt="">
+            <img v-for="(image, index) in images" :key="index" class="col-3 p-1" :src="require('../assets/' + image.path)" alt="">
           </div>
         </div>
 
@@ -67,7 +67,6 @@ export default {
     return {
       items: footerNav,
       images: footerImg,
-      imgSrc: "../assets/images/",
     }
   }
 }
