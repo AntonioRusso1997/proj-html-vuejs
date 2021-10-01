@@ -2,3 +2,19 @@
     width: 60%;
     margin: 0 auto;
 }
+
+//Importo palette colori
+@import './Colors';
+
+.btn-square {
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: $scarlet;
+    border: none;
+    border-bottom: 3px solid $froly;
+    color: $white;
+
+    &:hover {
+      background-color: $froly;
+    }
+  }

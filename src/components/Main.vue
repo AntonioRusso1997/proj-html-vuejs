@@ -3,18 +3,21 @@
     <!-- Sezione Jumbotron -->
     <Jumbotron />
     <CompanyInfo />
+    <Subscribe />
   </main>
 </template>
 
 <script>
 import Jumbotron from './main-components/Jumbotron.vue'
 import CompanyInfo from './main-components/CompanyInfo.vue'
+import Subscribe from './main-components/Subscribe.vue'
 
 export default {
   name: 'Main',
   components: {
     Jumbotron,
-    CompanyInfo
+    CompanyInfo,
+    Subscribe
   },
   data () {
     return {

@@ -27,7 +27,7 @@
           Book for your seat before it's too rate.
           We provide variety of ticket option.
         </p>
-        <button class="footer-btn my-2">CHECK OUT TICKETS!</button>
+        <button class="btn-square btn-footer my-2">CHECK OUT TICKETS!</button>
 
       </div>
       <div class="col-3 py-4">
@@ -106,21 +106,11 @@ footer {
         margin-right: 10px;
       }
     }
-    
-    .footer-btn {
+    .btn-footer {
       font-size: 13px;
-      font-weight: bold;
-      padding: 10px 20px;
-      background-color: $scarlet;
-      border: none;
-      border-bottom: 3px solid $froly;
-      color: $white;
-
-      &:hover {
-        background-color: $froly;
-      }
     }
   }
+
   .footer-bottom {
     height: 70px;
     background-color: $black;
