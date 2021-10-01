@@ -34,11 +34,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-@import "../styles/generals.scss";
+@import "../../styles/generals.scss";
 
 .jumbotron {
   height: 600px;
-  background-image: url("../assets/images/slider-1-bg.jpg");
+  background-image: url("../../assets/images/slider-1-bg.jpg");
   background-size: cover;
   background-position-y: center;
 

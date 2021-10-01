@@ -2,16 +2,19 @@
   <main>
     <!-- Sezione Jumbotron -->
     <Jumbotron />
+    <CompanyInfo />
   </main>
 </template>
 
 <script>
-import Jumbotron from './Jumbotron.vue'
+import Jumbotron from './main-components/Jumbotron.vue'
+import CompanyInfo from './main-components/CompanyInfo.vue'
 
 export default {
   name: 'Main',
   components: {
-    Jumbotron
+    Jumbotron,
+    CompanyInfo
   },
   data () {
     return {
