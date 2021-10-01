@@ -34,7 +34,7 @@
         <h4 class="mb-4">GALLERY FROM LAST YEAR</h4>
         <div class="container p-0">
           <div class="row w-100 p-0">
-            <img v-for="(image, index) in images" :key="index" class="" :src="require(`${image.path}`)" alt="">
+            <img v-for="(image, index) in images" :key="index" class="" :src="require('../assets/' + image.path)" alt="">
           </div>
         </div>
 
@@ -42,8 +42,17 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <div class="d-flex justify-content-between">
-        <p></p>
+      <div class="d-flex justify-content-between align-items-center pt-3 h-100 my-w60">
+        <p>© Copyright GoodLayers, All Right Reserved</p>
+        <ul class="d-flex list-unstyled">
+          <li><a href="#">About Us</a></li>
+          <div>|</div>
+          <li><a href="#">Accommodation</a></li>
+          <div>|</div>
+          <li><a href="#">Call For Paper</a></li>
+          <div>|</div>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
       </div>
     </div>
   </footer>
@@ -112,6 +121,20 @@ footer {
   .footer-bottom {
     height: 70px;
     background-color: $black;
+    font-size: 14px;
+
+    p {
+      color: $gray;
+    }
+    ul{
+      color: $cloud;
+      
+      li a {
+        text-decoration: none;
+        color: $cloud;
+        margin: 0 3px;
+      }
+    } 
   }
 }
 </style>

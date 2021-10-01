@@ -1,6 +1,6 @@
 export default [
     {
-        path: '../assets/images/photodune-7770665-two-white-coffee-mug-with-diy-decoration-o(1).jpg',
+        path: 'images/sphotodune-7770665-two-white-coffee-mug-with-diy-decoration-o(1).jpg',
     },
     // {
     //     path: "../assets/images/photodune-8523683-speaker-at-business-convention-and-present.jpg"
