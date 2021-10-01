@@ -34,7 +34,7 @@
         <h4 class="mb-4">GALLERY FROM LAST YEAR</h4>
         <div class="container p-0">
           <div class="row w-100 p-0">
-            <img v-for="(image, index) in images" :key="index" class="" v-bind:src="`${image.path}`" alt="">
+            <img v-for="(image, index) in images" :key="index" class="" :src="require(`${image.path}`)" alt="">
           </div>
         </div>
 
@@ -42,7 +42,9 @@
       </div>
     </div>
     <div class="footer-bottom">
-
+      <div class="d-flex justify-content-between">
+        <p></p>
+      </div>
     </div>
   </footer>
 </template>
