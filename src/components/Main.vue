@@ -6,6 +6,7 @@
     <Subscribe />
     <Speakers />
     <Program />
+    <Map />
   </main>
 </template>
 
@@ -15,6 +16,7 @@ import CompanyInfo from './main-components/CompanyInfo.vue'
 import Subscribe from './main-components/Subscribe.vue'
 import Speakers from './main-components/Speakers.vue'
 import Program from './main-components/Program.vue'
+import Map from './main-components/Map.vue'
 
 export default {
   name: 'Main',
@@ -23,7 +25,8 @@ export default {
     CompanyInfo,
     Subscribe,
     Speakers,
-    Program
+    Program,
+    Map
   },
   data () {
     return {
