@@ -9,7 +9,7 @@
           </p>
           <p class="mx-0"><a class="text-decoration-none" href="#">View Full Program</a></p>
         </div>
-        <div class="calendar w-100 mx-2">
+        <div class="calendar w-100 mx-2 mb-4">
           <div class="row row-days mb-0">
             <div v-for="(day, index) in days" :key="index" class="col-2 d-flex flex-column justify-content-center">
               <h3 class="m-0">{{ day.nmb.toUpperCase() }}</h3>
