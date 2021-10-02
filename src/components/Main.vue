@@ -5,6 +5,7 @@
     <CompanyInfo />
     <Subscribe />
     <Speakers />
+    <Program />
   </main>
 </template>
 
@@ -13,6 +14,7 @@ import Jumbotron from './main-components/Jumbotron.vue'
 import CompanyInfo from './main-components/CompanyInfo.vue'
 import Subscribe from './main-components/Subscribe.vue'
 import Speakers from './main-components/Speakers.vue'
+import Program from './main-components/Program.vue'
 
 export default {
   name: 'Main',
@@ -20,7 +22,8 @@ export default {
     Jumbotron,
     CompanyInfo,
     Subscribe,
-    Speakers
+    Speakers,
+    Program
   },
   data () {
     return {
