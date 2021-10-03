@@ -75,7 +75,6 @@ export default {
 .program-top {
   position: relative;
   h1 {
-    font-style: 30px;
     font-weight: bold;
     letter-spacing: 2px;
   }

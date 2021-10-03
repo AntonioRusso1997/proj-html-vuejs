@@ -8,6 +8,7 @@
     <Program />
     <Map />
     <Location />
+    <RecentNews />
   </main>
 </template>
 
@@ -19,6 +20,7 @@ import Speakers from './main-components/Speakers.vue'
 import Program from './main-components/Program.vue'
 import Map from './main-components/Map.vue'
 import Location from './main-components/Location.vue'
+import RecentNews from './main-components/RecentNews.vue'
 
 export default {
   name: 'Main',
@@ -29,7 +31,8 @@ export default {
     Speakers,
     Program,
     Map,
-    Location
+    Location,
+    RecentNews
   },
   data () {
     return {

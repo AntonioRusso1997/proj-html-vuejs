@@ -31,7 +31,7 @@ export default {
 @import "../../styles/generals.scss";
 
 .location {
-  height: 450px;
+  height: 420px;
   background-image: url(../../assets/images/location-bg.jpg);
   background-size: cover;
 
@@ -55,6 +55,7 @@ export default {
     border: none;
     border-bottom: 3px solid white;
     font-size: 22px;
+    color: white;
 
     &:focus {
       border: none;
