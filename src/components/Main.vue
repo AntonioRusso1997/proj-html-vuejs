@@ -10,6 +10,7 @@
     <Location />
     <RecentNews />
     <Tickets />
+    <Presentation />
     <Sponsors />
   </main>
 </template>
@@ -24,6 +25,7 @@ import Map from './main-components/Map.vue'
 import Location from './main-components/Location.vue'
 import RecentNews from './main-components/RecentNews.vue'
 import Tickets from './main-components/Tickets.vue'
+import Presentation from './main-components/Presentation.vue'
 import Sponsors from './main-components/Sponsors.vue'
 
 export default {
@@ -38,6 +40,7 @@ export default {
     Location,
     RecentNews,
     Tickets,
+    Presentation,
     Sponsors
   },
   data () {
